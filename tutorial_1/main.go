@@ -7,5 +7,5 @@ func main() {
 	// var intNum int16 = 32767 + 1
 	var intNum int16 = 32767
 	intNum += 1 // Overflow Error but not doesn't crash
-	fmt.Println(intNum)
+	fmt.Println("intNum", intNum)
 }
